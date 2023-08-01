@@ -20,3 +20,6 @@ Route::post('exercicio/seis', [ExercicioSeisController::class, 'idade']);
 Route::get('exercicio/sete', [ExercicioSeteController::class, 'exibirNumeros']);
 
 Route::post('exercicio/oito', [ExercicioOitoController::class, 'tabuada']);
+
+Route::post('exercicio/nove', [ExercicioNoveController::class, 'divisao']);
+
