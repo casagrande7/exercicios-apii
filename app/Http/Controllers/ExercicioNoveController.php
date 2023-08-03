@@ -2,11 +2,12 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\ExercicioNoveFormRequest;
 use Illuminate\Http\Request;
 
 class ExercicioNoveController extends Controller
 {
-    public function divisao(Request $request){
+    public function divisao(ExercicioNoveFormRequest $request){
         $numeros = []; 
 
         for ($i = 1; $i <= 100; $i++) {

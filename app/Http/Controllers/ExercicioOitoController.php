@@ -2,11 +2,12 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\ExercicioOitoFormRequest;
 use Illuminate\Http\Request;
 
 class ExercicioOitoController extends Controller
 {
-    public function tabuada(Request $request){
+    public function tabuada(ExercicioOitoFormRequest $request){
         $numeros = []; 
 
         for ($i = 1; $i <= 10; $i++) {
