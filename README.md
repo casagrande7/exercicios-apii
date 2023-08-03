@@ -23,6 +23,23 @@ Certifique-se de ter os seguintes requisitos atendidos antes de começar a traba
 ```
 cd exercicios-apii
 ```
+3. Inicializando o Repositorio
+---
+composer update
+---
+
+4. Copiando o env. do exemplo
+---
+copy .env.example .env
+---
+
+5. Acessar o Visual Studio Code
+---
+code .
+---
+
+##Insomnia
+[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=exercicios_apii&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fcasagrande7%2Fexercicios-apii%2Fmain%2FInsomnia.json)
 
 ## Licença
 
